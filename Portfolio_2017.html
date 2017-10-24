@@ -3,50 +3,68 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style_portfolio-small.css">
-    <link rel="stylesheet" media="screen and (min-width: 715px)" href="css/style_portfolio-medium.css">
-    <link rel="stylesheet" media="screen and (min-width: 1070px)" href="css/style_portfolio-large.css">
-    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="css/Portfolio.css">
+    <title>Hajeong's Portfolio</title>
   </head>
   <body>
-    <header class="headerc">
-      <img class="logo right" alt="logoalt" src="img/udacity_logo.png">
-      <h4 class="headtext">Hajeong's Portfolio</h4>
+    <header class="header middle">
+      <img class="logo right inline-block" alt="udacity-logo" src="img/udacity_logo.png">
+      <h1 class="header-text inline-block">Hajeong's Portfolio</h1>
     </header>
-    <container class="wrap">
-      <aside class="first inline-block vertical-align-top">
-        <div class="photosec center-align">
-          <img class="photo" alt="profile-picture" src="https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/13076988_927295467367835_7579733013464894168_n.jpg?oh=d7eab6ee1fe15fa5d3d76c4902c4a258&oe=5A84325E">
-        </div>
-        <div class="namesec flex">Hajeong Noh</div>
-        <div class="expsec">
-          <p>A nomad student who studied in Korea<img class="flag" alt="korea flag" src="img/korea_flag.jpg">, Germany<img class="flag" alt="germany flag" src="img/germany_flag.jpg"> and Italy<img class="flag" alt="italy flag" src="img/italy_flag.jpg">.</p>
-          <p>Topics interested: Information systems, Web programming</p>
-        </div>
-      </aside><container class="second inline-block vertical-align-top">
-        <nav class="project-intro flex">
-          <a href="Portfolio_2017.html" class="project-button flex selected">Projects 2017</a>
-          <a href="Portfolio_2018.html" class="project-button flex">Projects 2018</a>
-        </nav>
-        <article class="project inline-block">
-          <h4 class="headingc sentence-in-box inline-block">Database 2</h4>
-          <p class="sentence-in-box">"Concurrency control of database using 2 Phase Locking mechanism"</p>
-          <img class="pbutton right" alt="pb1" src="img/read_more.png">
-        </article><article class="project inline-block">
-          <h4 class="headingc sentence-in-box inline-block">Advanced Software Engineering</h4>
-          <p class="sentence-in-box">"Implementation of Model to Model transformation using Java Ecore module"</p>
-          <img class="pbutton right" alt="pb2" src="img/read_more.png">
+    <aside class="aside">
+      <img class="profile block" alt="profile-picture" src="img/profile_picture.jpg">
+      <h2 class="name">Hajeong Noh</h2>
+      <p class="intro1 text">A nomad student who studied in Korea<img class="flag" alt="korea-flag" src="img/korea_flag.jpg">, Germany<img class="flag" alt="germany-flag" src="img/germany_flag.jpg"> and Italy<img class="flag" alt="italy-flag" src="img/italy_flag.jpg">.</p>
+      <p class="intro2 text">Topics interested: Business Process Modelling, Software Engineering, Web Programming</p>
+    </aside>
+    <main class="main">
+      <section class="project">
+        <h2 class="project-text center">Project List</h2>
+      </section>
+      <div class="project-box flex center">
+        <article class="project-item">
+          <div class="subject-box">
+            <h3 class="text">Business Process Modelling</h3>
+          </div>
+          <img class="project-button right" alt="read-more" src="img/read_more.png">
         </article>
-        <article class="project inline-block">
-          <h4 class="headingc sentence-in-box inline-block">Web Science</h4>
-          <p class="sentence-in-box">"Flow analysis of crowd in Como city center using social media data and censor data"</p>
-          <img class="pbutton right" alt="pb3" src="img/read_more.png">
-        </article><article class="project inline-block">
-          <h4 class="headingc sentence-in-box inline-block">Business Process Modeling</h4>
-          <p class="sentence-in-box">"Procurement process modelling with BPMN languange using IBM BPM software"</p>
-          <img class="pbutton right" alt="pb4" src="img/read_more.png">
+        <article class="project-item">
+          <div class="subject-box">
+            <h3 class="text">Web Science</h3>
+          </div>
+          <img class="project-button right" alt="read-more" src="img/read_more.png">
         </article>
-      </container>
-    </container>
+        <article class="project-item">
+          <div class="subject-box">
+            <h3 class="text">Advanced Software Engineering</h3>
+          </div>
+          <img class="project-button right" alt="read-more" src="img/read_more.png">
+        </article>
+        <article class="project-item">
+          <div class="subject-box">
+            <h3 class="text">Database 2</h3>
+          </div>
+          <img class="project-button right" alt="read-more" src="img/read_more.png">
+        </article>
+        <article class="project-item">
+          <div class="subject-box">
+            <h3 class="text">Digital Project Management</h3>
+          </div>
+          <img class="project-button right" alt="read-more" src="img/read_more.png">
+        </article>
+        <article class="project-item">
+          <div class="subject-box">
+            <h3 class="text">Advanced Web Technologies</h3>
+          </div>
+          <img class="project-button right" alt="read-more" src="img/read_more.png">
+        </article>
+        <article class="project-item">
+          <div class="subject-box">
+            <h3 class="text">Web and Internet Economics</h3>
+          </div>
+          <img class="project-button right" alt="read-more" src="img/read_more.png">
+        </article>
+      </div>
+    </main>
   </body>
 </html>
